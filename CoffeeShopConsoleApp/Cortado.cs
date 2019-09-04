@@ -20,5 +20,10 @@ namespace CoffeeShopConsoleApp
         {
             return 40;
         }
+
+        public Cortado()
+        {
+            Discount = 15;
+        }
     }
 }

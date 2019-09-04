@@ -20,5 +20,10 @@ namespace CoffeeShopConsoleApp
         {
             return 200;
         }
+
+        public Latte()
+        {
+            Discount = 15;
+        }
     }
 }

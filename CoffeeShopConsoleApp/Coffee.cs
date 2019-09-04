@@ -14,6 +14,9 @@ namespace CoffeeShopConsoleApp
         /// It's possible to override this method, beacuse it is virtual 
         /// </summary>
         /// <returns>20 dkr</returns>
+        public int Discount { get; set; }
+
+
         public virtual int price()
         {
             return 20;
@@ -21,5 +24,9 @@ namespace CoffeeShopConsoleApp
 
         public abstract string Strength();
        
+        public  Coffee()
+        {
+            Discount = 10;
+        }
     }
 }

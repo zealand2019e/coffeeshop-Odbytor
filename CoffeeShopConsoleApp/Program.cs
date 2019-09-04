@@ -18,7 +18,12 @@ namespace CoffeeShopConsoleApp
 
             };
 
-            
+            List<IMilk> coffeMilk = new List<IMilk>()
+            {
+                new Cortado(),
+                new Latte()
+            };
+
             foreach (var coffee in orderList)
             {
                 Console.WriteLine("the Price of the coffee is : "+ coffee.price() + " The strenght of the cofee is: "+ coffee.Strength() );

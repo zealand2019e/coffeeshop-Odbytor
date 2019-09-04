@@ -24,6 +24,7 @@ namespace CoffeeShopConsoleApp
         public Latte()
         {
             Discount = 15;
+            Blend = "Akmel";
         }
     }
 }

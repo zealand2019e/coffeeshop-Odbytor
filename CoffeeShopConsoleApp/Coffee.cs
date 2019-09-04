@@ -21,12 +21,15 @@ namespace CoffeeShopConsoleApp
         {
             return 20;
         }
+        public  string Blend { get; set; }
+        
 
         public abstract string Strength();
        
         public  Coffee()
         {
             Discount = 10;
+            Blend = "Arabica";
         }
     }
 }

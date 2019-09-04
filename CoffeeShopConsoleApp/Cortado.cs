@@ -24,6 +24,7 @@ namespace CoffeeShopConsoleApp
         public Cortado()
         {
             Discount = 15;
+            Blend = "Kieni";
         }
     }
 }

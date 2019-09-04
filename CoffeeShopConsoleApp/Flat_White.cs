@@ -14,6 +14,13 @@ namespace CoffeeShopConsoleApp
         public override int price()
         {
             return 30;
+           
+        }
+
+        public Flat_White()
+        {
+            Discount = 20;
+            Blend = "Konyu";
         }
     }
 }

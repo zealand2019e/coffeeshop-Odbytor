@@ -14,6 +14,7 @@ namespace CoffeeShopConsoleApp
         public Black_Coffee()
         {
             Discount = 15;
+            Blend = "Arabica";
         }
 
     }

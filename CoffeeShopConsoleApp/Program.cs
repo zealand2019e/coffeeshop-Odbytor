@@ -18,12 +18,12 @@ namespace CoffeeShopConsoleApp
 
             };
 
-
+            
             foreach (var coffee in orderList)
             {
-                Console.WriteLine("the Price of the coffee is : "+ coffee.price());
+                Console.WriteLine("the Price of the coffee is : "+ coffee.price() + " The strenght of the cofee is: "+ coffee.Strength() );
             }
-
+            Console.ReadKey();
 
         }
     }
